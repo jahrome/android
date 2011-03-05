@@ -18,6 +18,9 @@
            fetch="git@github.com:jahrome/"
            revision="jahrome" />
 
+  <remote  name="prajnashi"
+           fetch="git://github.com/prajnashi/" />
+
   <project path="build" name="android_build" remote="githubssh" revision="jahrome">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -246,5 +249,34 @@
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
 
   <project path="android" name="CyanogenMod/android" remote="github" />
+
+  <project path="external/gst-plugins-android" name="gst-plugins-android" remote="githubssh" revision="jahrome" />
+  <project path="external/gstreamer" name="gstreamer" remote="githubssh" revision="jahrome" />
+  <project path="external/faad2" name="faad2" remote="githubssh" revision="jahrome" />
+  <project path="external/glib" name="glib" remote="githubssh" revision="jahrome" />
+  <project path="external/neon" name="neon" remote="githubssh" revision="jahrome" />
+  <project path="external/rtmpdump" name="rtmpdump" remote="githubssh" revision="jahrome" />
+  <project path="external/libmad" name="libmad" remote="prajnashi" revision="master" />
+  <project path="external/libogg" name="libogg" remote="prajnashi" revision="master" />
+  <project path="external/libid3tag" name="libid3tag" remote="prajnashi" revision="master" />
+  <project path="external/orc" name="orc" remote="githubssh" revision="jahrome" />
+  <project path="external/soundtouch" name="soundtouch" remote="githubssh" revision="jahrome" />
+  <project path="external/gst-ffmpeg" name="gst-ffmpeg" remote="githubssh" revision="jahrome" />
+  <project path="external/gst-plugins-bad" name="gst-plugins-bad" remote="githubssh" revision="jahrome" />
+  <project path="external/gst-plugins-base" name="gst-plugins-base" remote="githubssh" revision="jahrome" />
+  <project path="external/gst-plugins-good" name="gst-plugins-good" remote="githubssh" revision="jahrome" />
+  <project path="external/gst-plugins-ugly" name="gst-plugins-ugly" remote="githubssh" revision="jahrome" />
+  <!--project path="external/libnice" name="libnice" remote="gstreamer" revision="master"/-->
+  <!--project path="external/libsoup" name="libsoup" remote="gstreamer" revision="master"/-->
+
+  <project path="external/tinyproxy" name="tinyproxy" remote="githubssh" revision="jahrome" />
+  <project path="external/unrar" name="unrar" remote="githubssh" revision="jahrome" />
+  <project path="external/screen" name="screen-android" remote="githubssh" revision="jahrome" />
+
+  <!--project path="external/libemu" name="libemu" remote="misc" revision="master"/>
+  <project path="external/libgba" name="libgba" remote="misc" revision="master"/>
+  <project path="external/libgens" name="libgens" remote="misc" revision="master"/>
+  <project path="external/libnes" name="libnes" remote="misc" revision="master"/>
+  <project path="external/libsnes" name="libsnes" remote="misc" revision="master"/-->
 
 </manifest>
