@@ -18,10 +18,10 @@
            fetch="git@github.com:jahrome/"
            revision="jahrome" />
 
-  <project path="build" name="android_build" remote="githubssh">
+  <project path="build" name="android_build" remote="githubssh" revision="jahrome">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="githubssh" />
+  <project path="bionic" name="android_bionic" remote="githubssh" revision="jahrome" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
@@ -67,7 +67,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" />
   <project path="external/bison" name="platform/external/bison" />
-  <project path="external/busybox" name="android_external_busybox" remote="githubssh" />
+  <project path="external/busybox" name="android_external_busybox" remote="githubssh" revision="jahrome" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
@@ -80,7 +80,7 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/dropbear" name="android_external_dropbear" remote="githubssh" />
+  <project path="external/dropbear" name="android_external_dropbear" remote="githubssh" revision="jahrome" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
@@ -151,7 +151,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="master" />
-  <project path="external/webkit" name="android_external_webkit" remote="githubssh" />
+  <project path="external/webkit" name="android_external_webkit" remote="githubssh" revision="jahrome" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" />
