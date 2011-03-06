@@ -273,6 +273,7 @@
   <project path="external/unrar" name="unrar" remote="githubssh" revision="jahrome" />
   <project path="external/screen" name="screen-android" remote="githubssh" revision="jahrome" />
 
+  <project path="ffmpeg-android" name="ffmpeg-android" remote="githubssh" revision="jahrome" />
   <!--project path="external/libemu" name="libemu" remote="misc" revision="master"/>
   <project path="external/libgba" name="libgba" remote="misc" revision="master"/>
   <project path="external/libgens" name="libgens" remote="misc" revision="master"/>
